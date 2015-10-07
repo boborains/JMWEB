@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+* {margin:0px;padding: 0px;font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;color:#666;font-size: 14px;}
+body, div, ul, li, img{list-style: none;margin:0px;padding:0px;border:0px;vertical-align:top;}
+.nav{background:#efefef;height:150px;position:fixed;bottom:0px;width:100%;border-top:1px solid #000000;}
+.nav li{width:25%;text-align:center;float:left;line-height:150px;cursor: pointer}
+.topnav{background:#efefef;height:145px;position:fixed;top:0px;width:100%;line-height:145px;}
+.topnav .leftli{width:20%;float:left;padding-left:70px;color:#1976f5;background:url(../img/listicon1.png) no-repeat left;}
+.topnav .centerli{width:45%;float:left;text-align:center;color:#000}
+.topnav .rightli{width:15%;float:right;text-align:right}
+.box-shadow{-webkit-box-shadow: 0px -2px 3px #666; -moz-box-shadow: 0px -2px 3px #666;box-shadow:  0px -2px 3px #666;}
+.nav .libg{background:url(../img/navbg.jpg) no-repeat top center;color:#0f69f7}
+#adHome{display:block;overflow-x:scroll;text-align:center}
+.adimg{width:100%;height:auto}
+.titleNameul{margin:50px;line-height:48px;display:block;overflow:auto;}
+.titleControl a{font-size:30px;text-decoration:none;}
+.floatleft{float:left;}
+.floatright{float:right}
+.title1{font-size:48px;color:#020202}
+.title2{font-size:34px;color:#000}
+.title3{font-size:34px;color:#777777;line-height:42px;}
+.title4{font-size:36px;}
+.title5{font-size:72px}
+.mainwidth{width:100%;}
+.listPH{overflow-y: hidden;overflow-x: auto;white-space: nowrap;margin: 50px 0px 0px 50px;min-height: 200px;text-align: left;border-bottom:1px solid #ccc;padding-bottom:45px;}
+
+.listPH ul{display:inline-table;vertical-align:top;width:230px;margin-right:45px;text-align:left;line-height: 48px;cursor: pointer}
+.listPH ul li{clear:none;overflow-x:hidden;white-space:pre-wrap;margin-bottom:20px;}
+.listPH1{overflow-y: hidden;overflow-x: auto;white-space: nowrap;margin: 50px 50px 50px 50px;min-height: 200px;text-align: left;border-bottom:1px solid #ccc;padding-bottom:45px;}
+.listbottom{height:150px;width:100%}
+
+.classapptitle{background:#ccc;color:#424242;line-height:40px;padding-left:50px;}
+.classlistul{margin: 50px 50px 0px 50px;text-align: left;border-bottom:1px solid #ccc;padding-bottom:45px;line-height:54px;min-height:48px;}
+.classlistul .classleft{float:left;line-height:48px;}
+.classlistul .classright{float:right;line-height:48px;width:60px;text-align:left}
+.listPH2{overflow-y: hidden;overflow-x: auto;white-space: nowrap;margin: 50px 0px 0px 50px;min-height: 200px;text-align: left;border-bottom:1px solid #ccc;padding-bottom:45px;}
+}
+.listPH2 ul{float:left;cursor: pointer}
+.listPH2 .leftul{width:240px;float:left;}
+.listPH2 .centerul{float:left;display:block;overflow:auto;width:60%;}
+.listPH2 .rightul{width:110px;float:right;margin-right:75px;}
+.fcolor{color:#161616}
+.rightul li{background:url(../img/downloadicon.png) no-repeat left ;padding-left:45px;border:1px solid #1976f5;border-radius:4px;width:100%;height:80px;text-align:center;line-height:80px;color:#1976f5}
+.searchli{background:#e0e0e0;margin:30px;height:70px;line-height:70px; text-align:center;border-radius:4px;}
+.searchli input{height:70px; border:1px solid #000; opacity:10;filter:alpha(opacity=10);}
+.searchtitle1{line-height:100px;font-size:72px;color:#000;text-align:center;padding:100px;}
+.searchlist{font-size:48px;color:#1976f5;line-height:56px;text-align:center;padding:20px;}
+
+.details {margin:50px 0px 50px 0px;border-bottom:1px solid #ccc;padding-bottom:45px;overflow-y:auto;width:100%}
+.details .leftul1{width:250px;float:left;margin-left:50px;}
+.details .centerul1{width:45%;float:left}
+.details .rightul1{width:200px;float:right}
+.details .centerul1 .t1{font-size:60px;color:#000}
+.details .centerul1 .t2{font-size:30px;}
+.details .rightul1 li{background:url(../img/downloadicon.png) no-repeat left ;margin:100px 50px 0px 0px;padding-left:45px;border:1px solid #1976f5;border-radius:4px;height:80px;text-align:center;line-height:80px;color:#1976f5}
+.details .uls{width:90%;float:none;line-height:60px;margin-top:30px; margin-left:50px;}
+.details .uls .li1{float:left;width:20%;text-align:right;}
+.details .uls .li2{float:left;width:65%;margin-left:20px;}
